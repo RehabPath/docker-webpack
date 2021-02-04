@@ -1,7 +1,7 @@
-FROM node:12
+FROM node:11
 MAINTAINER Marc Tanis <marc@blendimc.com>
 
-RUN npm install -g webpack webpack-dev-server yarn
+RUN npm install -g webpack webpack-dev-server
 
 RUN mkdir /app
 
