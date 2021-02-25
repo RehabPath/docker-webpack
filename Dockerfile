@@ -1,7 +1,7 @@
 FROM node:8
 MAINTAINER Bailey Griswold <bailey@rehabpath.com>
 
-RUN npm install -g webpack webpack-dev-server yarn
+RUN npm install -g webpack webpack-dev-server
 
 VOLUME /app
 
